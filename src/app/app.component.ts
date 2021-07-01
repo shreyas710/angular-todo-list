@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
   <h1>
-    Welcome to {{ title }}!
+    Welcome to {{ title | uppercase }}!
   </h1>
   <app-input-button-unit></app-input-button-unit>
   `,

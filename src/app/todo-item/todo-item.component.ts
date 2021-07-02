@@ -4,7 +4,9 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-todo-item',
   template: `
+  <div class="todo-item">
     {{ item.title }}
+  </div>
   `,
   styleUrls: ['./todo-item.component.scss']
 })

@@ -1,3 +1,4 @@
+import { TodoItem } from './../interfaces/todo-item';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -8,8 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./todo-item.component.scss']
 })
 export class TodoItemComponent implements OnInit {
-  @Input()
-  item: any = "";
+  @Input() item: any = "";
   constructor() { }
 
   ngOnInit(): void {
